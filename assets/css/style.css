@@ -1,0 +1,16 @@
+body {
+  background-color: #C3C6C0;
+}
+
+.navbar-fixed {
+  background-color: #616161;
+}
+
+#dropdown {
+  border-radius: 0 0 25px 0;
+  border: 1px solid black;
+}
+
+nav ul li:hover {
+   background-color: black;
+}

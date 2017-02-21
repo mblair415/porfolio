@@ -10,11 +10,17 @@ $(document).ready(function() {
   })
 
   $('#project1MoreDetailsLink').on('click', function() {
-    console.log('click project 1 more details text');
+    console.log('clicked project 1 more details');
     $('#project1Details').removeClass('hide').addClass('show');
     $('#project1MoreDetailsLink').removeClass('show').addClass('hide');
     $('#project1FewerDetails').removeClass('hide').addClass('show')
-    // $('#project2Text').removeClass('show').addClass('hide');
+  })
+
+  $('#project1FewerDetails').on('click', function() {
+    console.log('clicked project 1 fewer details');
+    $('#project1Details').removeClass('show').addClass('hide');
+    $('#project1MoreDetailsLink').removeClass('hide').addClass('show');
+    $('#project1FewerDetails').removeClass('show').addClass('hide')
   })
 
   // click on project image, show text for that image.  hide text for others.

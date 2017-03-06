@@ -24,49 +24,79 @@
   <body>
     <nav>
       <div class="navbar-fixed">
-        <a href="index.html" class="brand-logo center amber-text accent-3">My Work</a>
-        <a href="#" data-activates='dropdown' class="button-collapse dropdown-button"><i class="material-icons">menu</i></a>
-        <ul class="left hide-on-med-and-down">
-          <li><a href="assets/pages/about.html" class="amber-text accent-3">About</a></li>
-          <li><a href="assets/pages/contact.html" class="amber-text accent-3">Contact</a></li>
-        </ul>
-        <ul class="dropdown-content grey darken-1" id="dropdown">
-          <li><a href="assets/pages/about.html" class="amber-text accent-3">About</a></li>
-          <li><a href="assets/pages/contact.html" class="amber-text accent-3">Contact</a></li>
-        </ul>
+          <a href="index.html" class="brand-logo center amber-text accent-3">My Work</a>
+          <a href="#" data-activates='dropdown' class="button-collapse dropdown-button"><i class="material-icons">menu</i></a>
+          <ul class="left hide-on-med-and-down">
+            <li><a href="assets/pages/about.html" class="amber-text accent-3">About</a></li>
+            <li><a href="assets/pages/contact.html" class="amber-text accent-3">Contact</a></li>
+          </ul>
+          <ul class="dropdown-content grey darken-1" id="dropdown">
+            <li><a href="assets/pages/about.html" class="amber-text accent-3">About</a></li>
+            <li><a href="assets/pages/contact.html" class="amber-text accent-3">Contact</a></li>
+          </ul>
+
       </div>
     </nav>
 
-    <div class="row">
-      <div class="col s6 offset-s3 heroImage">
-        <img class="responsive-img card" src="https://www.bebuzee.com/users/blogs/images/img_profile_1791073_1.jpg" alt="tech image">
+    <div class="parallax-container">
+      <div class="parallax">
+        <img class="responsive-img" src="https://all-venturelabdoovat.netdna-ssl.com/wp-content/uploads/2015/06/Technology-detox.jpg" alt="life in tech image">
       </div>
     </div>
-    <div class="row">
-      <div class="col m6 s12 right hoverable project" id="project1">
-        <img class="responsive-img card" src="http://i.imgur.com/0LPXUJv.png" alt="tasc project">
+
+    <div class="carousel carousel-slider center" data-indicators="true">
+      <div class="carousel-fixed-item center">
+        <a class="btn waves-effect grey-text darken-text-2 details-button">Project Details</a>
       </div>
-      <div class="left col m6 s12 card hoverable hide" id="project1Text">
-        <p>Teachers And Students Connecting or TASC is a project I created with an extremely talented team of fellow students.  We realized that some of the resources for tracking class assignments, submitted work, and feedback provided on that work was spread out across many different software systems.  We wanted to go through the process of attempting to fix a very real problem by trying to consolidate these tracking systems into a single location and we also wanted to make sure we identified the needs of both the teaching staff and the students. I’m extremely proud of what we were able to accomplish in a week!</p>
-        <p class="center">Technologies Used</p>
-        <ul>
-          <li class="col s2 list">Ruby</li>
-          <li class="col s2 list">Rails</li>
-          <li class="col s2 list">Materialize</li>
-          <li class="col s2 list">Javascript</li>
-          <li class="col s2 list">jQuery</li>
-          <li class="col s3 list">Bcrypt client side validations</li>
-          <li class="col s3 list">API Integration (github)</li>
-        </ul>
-        <br>
-        <div class="col s12">
-          <p id="project1MoreDetailsLink" class="hoverable details center">Click For More Details</p>
-          <p id="project1FewerDetails" class="hoverable hide details center">Click For Fewer Details</p>
-        </div>
-        <div class="col s12 hide" id="project1Details">
-          <a class="col s6" href="https://floating-lowlands-88571.herokuapp.com/">Hosted</a>
-          <a class="col s6" href="https://github.com/Vedelopment/tasc">Github</a>
-          <p>My role on the team was that of a team member wearing many hats.  I created controllers, models, and views providing the ability to create, read, edit, and destroy resources.  I also worked to ensure that these options were displayed on the screen in a way that was not only clear, but worked within the general style of our school, General Assembly, specifically because we wanted the site to resemble a school resource and we chose to follow their style guidelines rather than making something that looked and felt like a separate experience.  Lasty, relying on previous work experience, I helped by functioning as a supervising project manager allowing other team members to stretch their legs at creating the schedule, breaking down tasks and communicating needs and I tried to speak up minimally to call attention to potential risks I had identified and help the group work to achieve a solution before the problem arose in full.  I’m extremely proud of what our team accomplished in such a short period of time and I’m very proud of my contributions with the group.</p>
+      <div class="carousel-item red white-text" href="#one!">
+        <!-- <h2>T.A.S.C.</h2> -->
+        <img class="responsive-img carousel-image" src="http://i.imgur.com/0LPXUJv.png" alt="tasc project">
+        <p class="white-text">This is your first panel</p>
+      </div>
+      <div class="carousel-item amber white-text" href="#two!">
+        <!-- <h2>Second Panel</h2> -->
+        <img class="responsive-img carousel-image" src="http://i.imgur.com/89gjzo6.png" alt="hero project">
+        <p class="white-text">This is your second panel</p>
+      </div>
+      <div class="carousel-item green white-text" href="#three!">
+        <h2>Third Panel</h2>
+        <p class="white-text">This is your third panel</p>
+      </div>
+      <div class="carousel-item blue white-text" href="#four!">
+        <h2>Fourth Panel</h2>
+        <p class="white-text">This is your fourth panel</p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="m12 s12 project">
+        <div class="row">
+          <div class="col m6 right hoverable project-image" id="project1">
+            <img class="responsive-img" src="http://i.imgur.com/0LPXUJv.png" alt="tasc project">
+          </div>
+          <div class="left col m6 hide card project-text" id="project1Text">
+            <p>Teachers And Students Connecting or TASC is a project I created with an extremely talented team of fellow students.  We realized that some of our web development school's resources for tracking class assignments, submitted work, and feedback provided on that work was spread out across many different software systems.  We wanted to go through the process of attempting to fix a very real problem by trying to consolidate these tracking systems into a single location and we also wanted to make sure we identified the needs of both the teaching staff and the students. I’m extremely proud of what we were able to accomplish in a week!</p>
+            <p class="center">Technologies Used</p>
+            <ul>
+              <li class="col s2 list">Ruby</li>
+              <li class="col s2 list">Rails</li>
+              <li class="col s3 list">Materialize</li>
+              <li class="col s3 list">Javascript</li>
+              <li class="col s2 list">jQuery</li>
+              <li class="col s3 list">Bcrypt client side validations</li>
+              <li class="col s3 list">API Integration (github)</li>
+            </ul>
+            <br>
+            <div class="col s12">
+              <p id="project1MoreDetailsLink" class="details center"><span>Click For More Details</span></p>
+              <p id="project1FewerDetails" class="hide details center"><span>Click For Fewer Details</span></p>
+            </div>
+            <div class="col s12 hide" id="project1Details">
+              <a class="col s6" href="https://floating-lowlands-88571.herokuapp.com/">Hosted</a>
+              <a class="col s6" href="https://github.com/Vedelopment/tasc">Github</a>
+              <p>My role on the team was that of a team member wearing many hats.  I created controllers, models, and views providing the ability to create, read, update, and destroy resources.  I also worked to ensure that these options were displayed on the screen in a way that was not only clear, but worked within the general style of our school, General Assembly, specifically because we wanted the site to resemble a school resource and we chose to follow their style guidelines rather than making something that looked and felt like a separate experience.  Lasty, relying on previous work experience, I helped by functioning as a supervising project manager allowing other team members to stretch their legs at creating the schedule, breaking down tasks and communicating needs and I tried to speak up minimally to call attention to potential risks I had identified and help the group work to achieve a solution before the problem arose in full.  I’m extremely proud of what our team accomplished in such a short period of time and I’m very proud of my contributions with the group.</p>
+            </div>
+          </div>
         </div>
       </div>
     </div>

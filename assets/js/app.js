@@ -6,7 +6,7 @@ $(document).ready(function() {
   $('.slider').slider();
 
 
-  // click on project image, show text for that image.  hide text for others.
+  // click on project 1 image, show text for that image.  hide text for others.
   $('#project1').on('click', function() {
     if ($('#project1Text').hasClass('hide')) {
       // show basic project text.
@@ -36,6 +36,38 @@ $(document).ready(function() {
     $('#project1MoreDetailsLink').removeClass('hide').addClass('show');
     $('#project1FewerDetails').removeClass('show').addClass('hide');
   })
+
+  $('#project2').on('click', function() {
+    if ($('#project2Text').hasClass('hide')) {
+      // show basic project text.
+      $('#project2Text').removeClass('hide').addClass('show');
+      // hide text from other projects
+      $('#project1Text').removeClass('show').addClass('hide');
+      // hide detailed project text
+      $('#project2Details').removeClass('show').addClass('hide');
+      // show link to get more details again
+      $('#project2MoreDetailsLink').removeClass('hide').addClass('show');
+      // hide link to get fewer details
+      $('#project2FewerDetails').removeClass('show').addClass('hide');
+    } else {
+      $('#project2Text').removeClass('show').addClass('hide');
+    }
+  })
+
+  $('#project2MoreDetailsLink').on('click', function() {
+    $('#project2Details').removeClass('hide').addClass('show');
+    $('#project2MoreDetailsLink').removeClass('show').addClass('hide');
+    $('#project2FewerDetails').removeClass('hide').addClass('show');
+  })
+
+  $('#project2FewerDetails').on('click', function() {
+    console.log('clicked project 2 fewer details');
+    $('#project2Details').removeClass('show').addClass('hide');
+    $('#project2MoreDetailsLink').removeClass('hide').addClass('show');
+    $('#project2FewerDetails').removeClass('show').addClass('hide');
+  })
+
+
 
   // click on project image, show text for that image.  hide text for others.
   $('#project2').on('click', function() {

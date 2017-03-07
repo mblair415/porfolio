@@ -3,20 +3,16 @@
   <head>
     <meta charset="utf-8">
     <title>Mblair Design</title>
-
     <!-- jQuery CDN -->
     <script type="text/javascript" src="http://code.jquery.com/jquery-2.2.2.min.js"></script>
     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css">
-
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
-
+    <!-- materialize icons -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-
     <!-- css -->
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-
     <!-- scripts -->
     <script type="text/javascript" src="assets/js/app.js"></script>
 
@@ -34,7 +30,6 @@
             <li><a href="assets/pages/about.html" class="amber-text accent-3">About</a></li>
             <li><a href="assets/pages/contact.html" class="amber-text accent-3">Contact</a></li>
           </ul>
-
       </div>
     </nav>
 
@@ -44,28 +39,47 @@
       </div>
     </div>
 
-    <div class="carousel carousel-slider center" data-indicators="true">
-      <div class="carousel-fixed-item center">
-        <a class="btn waves-effect grey-text darken-text-2 details-button">Project Details</a>
-      </div>
-      <div class="carousel-item red white-text" href="#one!">
-        <!-- <h2>T.A.S.C.</h2> -->
-        <img class="responsive-img carousel-image" src="http://i.imgur.com/0LPXUJv.png" alt="tasc project">
-        <p class="white-text">This is your first panel</p>
-      </div>
-      <div class="carousel-item amber white-text" href="#two!">
-        <!-- <h2>Second Panel</h2> -->
-        <img class="responsive-img carousel-image" src="http://i.imgur.com/89gjzo6.png" alt="hero project">
-        <p class="white-text">This is your second panel</p>
-      </div>
-      <div class="carousel-item green white-text" href="#three!">
-        <h2>Third Panel</h2>
-        <p class="white-text">This is your third panel</p>
-      </div>
-      <div class="carousel-item blue white-text" href="#four!">
-        <h2>Fourth Panel</h2>
-        <p class="white-text">This is your fourth panel</p>
-      </div>
+    <div class="slider-title center">
+      <h2 class="grey-text text-darken-4">A Glipse At My Work</h2>
+    </div>
+
+    <div class="slider">
+      <ul class="slides">
+        <li>
+          <img class="responsive-img carousel-image" src="http://i.imgur.com/0LPXUJv.png" alt="tasc project">
+          <div class="caption right-align text-box">
+            <h3 class="amber-text text-accent-3 slide-project-title"><span>TASC</span></h3>
+            <h6 class="amber-text text-accent-3 slide-project-detail"><span>Ruby</span></h6>
+            <h6 class="amber-text text-accent-3 slide-project-detail"><span>Rails</span></h6>
+            <h6 class="amber-text text-accent-3 slide-project-detail"><span>Materialize</span></h6>
+            <h6 class="amber-text text-accent-3 slide-project-detail"><span>Javascript</span></h6>
+            <h6 class="amber-text text-accent-3 slide-project-detail"><span>jQuery</span></h6>
+            <h6 class="amber-text text-accent-3 slide-project-detail"><span>Bcrypt</span></h6>
+            <h6 class="amber-text text-accent-3 slide-project-detail"><span>API Integration</span></h6>
+          </div>
+        </li>
+        <li>
+          <img class="responsive-img card" src="http://i.imgur.com/89gjzo6.png" alt="hero project">
+          <div class="caption left-align">
+            <h3>Left Aligned Caption</h3>
+            <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+          </div>
+        </li>
+        <li>
+          <img src="http://lorempixel.com/580/250/nature/3"> <!-- random image -->
+          <div class="caption right-align">
+            <h3>Right Aligned Caption</h3>
+            <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+          </div>
+        </li>
+        <li>
+          <img src="http://lorempixel.com/580/250/nature/4"> <!-- random image -->
+          <div class="caption center-align">
+            <h3>This is our big Tagline!</h3>
+            <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+          </div>
+        </li>
+      </ul>
     </div>
 
     <div class="row">
@@ -100,14 +114,39 @@
         </div>
       </div>
     </div>
+<!-- hero     -->
     <div class="row">
-      <div class="col m6 s12 left hoverable project" id="project2">
-        <img class="responsive-img card" src="http://i.imgur.com/89gjzo6.png" alt="hero project">
-      </div>
-      <div class="right col m6 s12 card hoverable hide" id="project2Text">
-        <p>Our user is a tech savvy sandwich aficionado. Someone who won’t be fooled by any questionable piece of meat sitting lacklusterly between a pair of tired old buns. No! Our user expects the greatest culinary experience offered. But, the question remains, where to get it? Where’s their club, their open face, their BLAT ... where’s their hero?</p>
-        <p>That's where we come in. We host reviews of sandwiches to help our users find the best usage of their food oriented face holes. We find their hero and we tell them right where to shove it!</p>
+      <div class="m12 s12 project">
+        <div class="row">
+          <div class="col m6 left hoverable project-image" id="project2">
+            <img class="responsive-img card" src="http://i.imgur.com/89gjzo6.png" alt="hero project">
+          </div>
+          <div class="right col m6 hide card project-text" id="project2Text">
+            <p>Our user is a tech savvy sandwich aficionado. Someone who won’t be fooled by any questionable piece of meat sitting lacklusterly between a pair of tired old buns. No! Our user expects the greatest culinary experience offered. But, the question remains, where to get it? Where’s their club, their open face, their BLAT ... where’s their hero?</p>
+            <p>That's where we come in. We host reviews of sandwiches to help our users find the best usage of their food oriented face holes. We find their hero and we tell them right where to shove it!</p>
+            <p class="center">Technologies Used</p>
+            <ul>
+              <li class="col s3 list">Javascript</li>
+              <li class="col s2 list">jQuery</li>
+              <li class="col s2 list">Mongo</li>
+              <li class="col s2 list">Node</li>
+              <li class="col s3 list">Bootstrap</li>
+              <li class="col s3 list">API Integration (yelp, google maps, geolocation, giphy)</li>
+            </ul>
+            <br>
+            <div class="col s12">
+              <p id="project2MoreDetailsLink" class="details center"><span>Click For More Details</span></p>
+              <p id="project2FewerDetails" class="hide details center"><span>Click For Fewer Details</span></p>
+            </div>
+            <div class="col s12 hide" id="project2Details">
+              <a class="col s6" href="https://shielded-inlet-58489.herokuapp.com/">Hosted</a>
+              <a class="col s6" href="https://github.com/johnson-rl/wheres-my-hero">Github</a>
+              <p>My role on the team was that of a team member wearing many hats.  I created controllers, models, and views providing the ability to create, read, update, and destroy resources.  I also worked to ensure that these options were displayed on the screen in a way that was not only clear, but worked within the general style of our school, General Assembly, specifically because we wanted the site to resemble a school resource and we chose to follow their style guidelines rather than making something that looked and felt like a separate experience.  Lasty, relying on previous work experience, I helped by functioning as a supervising project manager allowing other team members to stretch their legs at creating the schedule, breaking down tasks and communicating needs and I tried to speak up minimally to call attention to potential risks I had identified and help the group work to achieve a solution before the problem arose in full.  I’m extremely proud of what our team accomplished in such a short period of time and I’m very proud of my contributions with the group.</p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
+
   </body>
 </html>

@@ -3,6 +3,8 @@ $(document).ready(function() {
   $('.dropdown-button').dropdown();
   $('.parallax').parallax();
   $('.carousel.carousel-slider').carousel({fullWidth: true});
+  $('.slider').slider();
+
 
   // click on project image, show text for that image.  hide text for others.
   $('#project1').on('click', function() {

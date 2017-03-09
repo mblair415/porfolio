@@ -2,9 +2,8 @@ $(document).ready(function() {
   console.log('document ready test');
   $('.dropdown-button').dropdown();
   $('.parallax').parallax();
-  $('.carousel.carousel-slider').carousel({fullWidth: true});
   $('.slider').slider();
-
+  $('.modal').modal();
 
   // click on project 1 image, show text for that image.  hide text for others.
   $('#project1').on('click', function() {
@@ -24,12 +23,14 @@ $(document).ready(function() {
     }
   })
 
+  // getting more project 1 details
   $('#project1MoreDetailsLink').on('click', function() {
     $('#project1Details').removeClass('hide').addClass('show');
     $('#project1MoreDetailsLink').removeClass('show').addClass('hide');
     $('#project1FewerDetails').removeClass('hide').addClass('show');
   })
 
+  // removing project 1 details
   $('#project1FewerDetails').on('click', function() {
     console.log('clicked project 1 fewer details');
     $('#project1Details').removeClass('show').addClass('hide');
@@ -39,6 +40,7 @@ $(document).ready(function() {
 
   $('#project2').on('click', function() {
     if ($('#project2Text').hasClass('hide')) {
+      console.log("project 2 text.  has hide.")
       // show basic project text.
       $('#project2Text').removeClass('hide').addClass('show');
       // hide text from other projects
@@ -50,7 +52,9 @@ $(document).ready(function() {
       // hide link to get fewer details
       $('#project2FewerDetails').removeClass('show').addClass('hide');
     } else {
+      console.log("project 2 has show")
       $('#project2Text').removeClass('show').addClass('hide');
+
     }
   })
 
@@ -61,12 +65,10 @@ $(document).ready(function() {
   })
 
   $('#project2FewerDetails').on('click', function() {
-    console.log('clicked project 2 fewer details');
     $('#project2Details').removeClass('show').addClass('hide');
     $('#project2MoreDetailsLink').removeClass('hide').addClass('show');
     $('#project2FewerDetails').removeClass('show').addClass('hide');
   })
-
 
 
   // click on project image, show text for that image.  hide text for others.
@@ -76,10 +78,10 @@ $(document).ready(function() {
     $('#project1Text').removeClass('show').addClass('hide');
   })
 
-  $('.project').on('click', function() {
-    console.log('smarter click test');
-    $()
-  })
+  // $('.project').on('click', function() {
+  //   console.log('smarter click test');
+  //   $()
+  // })
 
 
 })

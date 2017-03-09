@@ -3,6 +3,8 @@
   <head>
     <meta charset="utf-8">
     <title>Mblair Design</title>
+    <!-- font -->
+    <link href="https://fonts.googleapis.com/css?family=Chonburi" rel="stylesheet">
     <!-- jQuery CDN -->
     <script type="text/javascript" src="http://code.jquery.com/jquery-2.2.2.min.js"></script>
     <!-- Compiled and minified CSS -->
@@ -33,125 +35,110 @@
       </div>
     </nav>
 
-    <div class="parallax-container">
-      <div class="parallax">
-        <img class="responsive-img" src="https://all-venturelabdoovat.netdna-ssl.com/wp-content/uploads/2015/06/Technology-detox.jpg" alt="life in tech image">
+    <div class="hero-image-container">
+      <div class="hero-image">
+        <img class="responsive-img" src="https://all-venturelabdoovat.netdna-ssl.com/wp-content/uploads/2015/06/Technology-detox.jpg" alt="life in tech image" />
+        <h2><span>Michael Blair<span class='spacer'></span><br /><span class='spacer'></span>Front End Web Developer</span></h2>
       </div>
     </div>
 
-    <div class="slider-title center">
-      <h2 class="grey-text text-darken-4">A Glipse At My Work</h2>
+    <div class="work-title center">
+      <h1 class="grey-text text-darken-4">A Glipse Into My Work</h1>
     </div>
 
-    <div class="slider">
-      <ul class="slides">
-        <li>
-          <img class="responsive-img carousel-image" src="http://i.imgur.com/0LPXUJv.png" alt="tasc project">
-          <div class="caption right-align text-box">
-            <h3 class="amber-text text-accent-3 slide-project-title"><span>TASC</span></h3>
-            <h6 class="amber-text text-accent-3 slide-project-detail"><span>Ruby</span></h6>
-            <h6 class="amber-text text-accent-3 slide-project-detail"><span>Rails</span></h6>
-            <h6 class="amber-text text-accent-3 slide-project-detail"><span>Materialize</span></h6>
-            <h6 class="amber-text text-accent-3 slide-project-detail"><span>Javascript</span></h6>
-            <h6 class="amber-text text-accent-3 slide-project-detail"><span>jQuery</span></h6>
-            <h6 class="amber-text text-accent-3 slide-project-detail"><span>Bcrypt</span></h6>
-            <h6 class="amber-text text-accent-3 slide-project-detail"><span>API Integration</span></h6>
+    <div class="row all-projects">
+      <div class="col m12 l4">
+        <div class="col s12 center">
+          <a  href="#modal1" src="http://i.imgur.com/0LPXUJv.png" alt="tasc project"><h5 class="center project-title waves-effect waves-light btn">TASC</h5></a>
+          <div class="project-image-container">
+            <img class="responsive-img project-image" src="http://i.imgur.com/0LPXUJv.png" alt="tasc project">
           </div>
-        </li>
-        <li>
-          <img class="responsive-img card" src="http://i.imgur.com/89gjzo6.png" alt="hero project">
-          <div class="caption left-align text-box">
-            <h3 class="amber-text text-accent-3 slide-project-title"><span>Where's My Hero!?</span></h3>
-            <h6 class="amber-text text-accent-3 slide-project-detail"><span>Javascript</span></h6>
-            <h6 class="amber-text text-accent-3 slide-project-detail"><span>jQuery</span></h6>
-            <h6 class="amber-text text-accent-3 slide-project-detail"><span>Mongo</span></h6>
-            <h6 class="amber-text text-accent-3 slide-project-detail"><span>Node</span></h6>
-            <h6 class="amber-text text-accent-3 slide-project-detail"><span>Bootstrap</span></h6>
-            <h6 class="amber-text text-accent-3 slide-project-detail"><span>API Integration</span></h6>            
-          </div>
-        </li>
-        <li>
-          <img src="http://lorempixel.com/580/250/nature/3"> <!-- random image -->
-          <div class="caption right-align">
-            <h3>Right Aligned Caption</h3>
-            <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
-          </div>
-        </li>
-        <li>
-          <img src="http://lorempixel.com/580/250/nature/4"> <!-- random image -->
-          <div class="caption center-align">
-            <h3>This is our big Tagline!</h3>
-            <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
-          </div>
-        </li>
-      </ul>
-    </div>
-
-    <div class="row">
-      <div class="m12 s12 project">
-        <div class="row">
-          <div class="col m6 right hoverable project-image" id="project1">
-            <img class="responsive-img" src="http://i.imgur.com/0LPXUJv.png" alt="tasc project">
-          </div>
-          <div class="left col m6 hide card project-text" id="project1Text">
-            <p>Teachers And Students Connecting or TASC is a project I created with an extremely talented team of fellow students.  We realized that some of our web development school's resources for tracking class assignments, submitted work, and feedback provided on that work was spread out across many different software systems.  We wanted to go through the process of attempting to fix a very real problem by trying to consolidate these tracking systems into a single location and we also wanted to make sure we identified the needs of both the teaching staff and the students. I’m extremely proud of what we were able to accomplish in a week!</p>
-            <p class="center">Technologies Used</p>
-            <ul>
-              <li class="col s2 list">Ruby</li>
-              <li class="col s2 list">Rails</li>
-              <li class="col s3 list">Materialize</li>
-              <li class="col s3 list">Javascript</li>
-              <li class="col s2 list">jQuery</li>
-              <li class="col s3 list">Bcrypt client side validations</li>
-              <li class="col s3 list">API Integration (github)</li>
-            </ul>
-            <br>
-            <div class="col s12">
-              <p id="project1MoreDetailsLink" class="details center"><span>Click For More Details</span></p>
-              <p id="project1FewerDetails" class="hide details center"><span>Click For Fewer Details</span></p>
-            </div>
-            <div class="col s12 hide" id="project1Details">
+          <div id="modal1" class="modal">
+            <div class="modal-content">
+              <h4><b>TASC</b></h4>
+              <p>Teachers And Students Connecting or TASC is a project I created with an extremely talented team of fellow students.  We realized that some of our web development school's resources for tracking class assignments, submitted work, and feedback provided on that work was spread out across many different software systems.  We wanted to go through the process of attempting to fix a very real problem by trying to consolidate these tracking systems into a single location and we also wanted to make sure we identified the needs of both the teaching staff and the students. I’m extremely proud of what we were able to accomplish in a week!</p>
+              <p class="center"><b>Technologies Used</b></p>
+              <div class="row">
+                <ul>
+                  <li class="col s2 list">Ruby</li>
+                  <li class="col s2 list">Rails</li>
+                  <li class="col s3 list">Materialize</li>
+                  <li class="col s3 list">Javascript</li>
+                  <li class="col s2 list">jQuery</li>
+                  <li class="col s2 list">Auth</li>
+                  <li class="col s3 list">Bcrypt client side validations</li>
+                  <li class="col s3 list">API Integration (github)</li>
+                </ul>
+              </div>
+              <br>
               <a class="col s6" href="https://floating-lowlands-88571.herokuapp.com/">Hosted</a>
               <a class="col s6" href="https://github.com/Vedelopment/tasc">Github</a>
+              <br>
               <p>My role on the team was that of a team member wearing many hats.  I created controllers, models, and views providing the ability to create, read, update, and destroy resources.  I also worked to ensure that these options were displayed on the screen in a way that was not only clear, but worked within the general style of our school, General Assembly, specifically because we wanted the site to resemble a school resource and we chose to follow their style guidelines rather than making something that looked and felt like a separate experience.  Lasty, relying on previous work experience, I helped by functioning as a supervising project manager allowing other team members to stretch their legs at creating the schedule, breaking down tasks and communicating needs and I tried to speak up minimally to call attention to potential risks I had identified and help the group work to achieve a solution before the problem arose in full.  I’m extremely proud of what our team accomplished in such a short period of time and I’m very proud of my contributions with the group.</p>
             </div>
           </div>
         </div>
       </div>
-    </div>
-<!-- hero     -->
-    <div class="row">
-      <div class="m12 s12 project">
-        <div class="row">
-          <div class="col m6 left hoverable project-image" id="project2">
-            <img class="responsive-img card" src="http://i.imgur.com/89gjzo6.png" alt="hero project">
+      <div class="col m12 l4">
+        <div class="col s12 center">
+          <a  href="#modal2" src="http://i.imgur.com/89gjzo6.png" alt="hero project"><h5 class="center project-title waves-effect waves-light btn">Where's My Hero!?</h5></a>
+          <div class="project-image-container">
+            <img class="responsive-img project-image" src="http://i.imgur.com/89gjzo6.png" alt="hero project">
           </div>
-          <div class="right col m6 hide card project-text" id="project2Text">
-            <p>Our user is a tech savvy sandwich aficionado. Someone who won’t be fooled by any questionable piece of meat sitting lacklusterly between a pair of tired old buns. No! Our user expects the greatest culinary experience offered. But, the question remains, where to get it? Where’s their club, their open face, their BLAT ... where’s their hero?</p>
-            <p>That's where we come in. We host reviews of sandwiches to help our users find the best usage of their food oriented face holes. We find their hero and we tell them right where to shove it!</p>
-            <p class="center">Technologies Used</p>
-            <ul>
-              <li class="col s3 list">Javascript</li>
-              <li class="col s2 list">jQuery</li>
-              <li class="col s2 list">Mongo</li>
-              <li class="col s2 list">Node</li>
-              <li class="col s3 list">Bootstrap</li>
-              <li class="col s3 list">API Integration (yelp, google maps, geolocation, giphy)</li>
-            </ul>
-            <br>
-            <div class="col s12">
-              <p id="project2MoreDetailsLink" class="details center"><span>Click For More Details</span></p>
-              <p id="project2FewerDetails" class="hide details center"><span>Click For Fewer Details</span></p>
+          <div id="modal2" class="modal">
+            <div class="modal-content">
+              <h4><b>Where's My Hero!?</b></h4>
+              <p>Our user is a tech savvy sandwich aficionado. Someone who won’t be fooled by any questionable piece of meat sitting lacklusterly between a pair of tired old buns. No! Our user expects the greatest culinary experience offered. But, the question remains, where to get it? Where’s their club, their open face, their BLAT ... where’s their hero?</p>
+              <p>That's where we come in. We host reviews of sandwiches to help our users find the best usage of their food oriented face holes. We find their hero and we tell them right where to shove it!</p>
+              <p class="center"><b>Technologies Used</b></p>
+              <div class="row">
+                <ul>
+                  <li class="col s3 list">Javascript</li>
+                  <li class="col s2 list">jQuery</li>
+                  <li class="col s2 list">Mongo</li>
+                  <li class="col s2 list">Node</li>
+                  <li class="col s3 list">Bootstrap</li>
+                  <li class="col s3 list">API Integration (yelp, google maps, geolocation, giphy)</li>
+                </ul>
+              </div>
+              <br>
+                <a class="col s6" href="https://shielded-inlet-58489.herokuapp.com/">Hosted</a>
+                <a class="col s6" href="https://github.com/johnson-rl/wheres-my-hero">Github</a>
+              <br>
+              <p>This was a wonderful project I completed early in the class as an introduction into database work and API integration.  I really enjoyed pushing myself to increase the functionality of the google map integration.  I also relished an opportunity to try and create a truly memorable review experience and I think that the personality that the gifs add to the reviews does a lot to enhance the at a glance value of each of our reviews.</p>
             </div>
-            <div class="col s12 hide" id="project2Details">
-              <a class="col s6" href="https://shielded-inlet-58489.herokuapp.com/">Hosted</a>
-              <a class="col s6" href="https://github.com/johnson-rl/wheres-my-hero">Github</a>
-              <p>My role on the team was that of a team member wearing many hats.  I created controllers, models, and views providing the ability to create, read, update, and destroy resources.  I also worked to ensure that these options were displayed on the screen in a way that was not only clear, but worked within the general style of our school, General Assembly, specifically because we wanted the site to resemble a school resource and we chose to follow their style guidelines rather than making something that looked and felt like a separate experience.  Lasty, relying on previous work experience, I helped by functioning as a supervising project manager allowing other team members to stretch their legs at creating the schedule, breaking down tasks and communicating needs and I tried to speak up minimally to call attention to potential risks I had identified and help the group work to achieve a solution before the problem arose in full.  I’m extremely proud of what our team accomplished in such a short period of time and I’m very proud of my contributions with the group.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col m12 l4">
+        <div class="col s12 center">
+          <a  href="#modal3" src="http://i.imgur.com/89gjzo6.png" alt="hero project"><h5 class="center project-title waves-effect waves-light btn">Sneaker Seeker</h5></a>
+          <div class="project-image-container">
+            <img class="responsive-img project-image" src="http://i.imgur.com/jfsnfa8.png" alt="sneaker seeker project">
+          </div>
+          <div id="modal3" class="modal">
+            <div class="modal-content">
+              <h4><b>Sneaker Seeker</b></h4>
+              <p>In 4 days I was able to create a proejct I could feel very proud of.  I devised a plan with contingencies, researched new technologies, was able to successfullly re-evaluate my plan after days of research and with the 4 days remaining still produce a high quality product as outlined in my original proposal and deliver a high quality product on time!</p>
+              <p class="center"><b>Technologies Used</b></p>
+              <div class="row">
+                <ul>
+                  <li class="col s3 list">Ruby</li>
+                  <li class="col s2 list">Rails</li>
+                  <li class="col s3 list">Materialize</li>
+                  <li class="col s2 list">Auth</li>
+                  <li class="col s23 list">Rapid Prototyping</li>
+                </ul>
+              </div>
+              <br>
+                <a class="col s6" href="https://mblair-sneaker-seeker.herokuapp.com/">Hosted</a>
+                <a class="col s6" href="https://github.com/mblair415/project-3">Github</a>
+              <br>
+              <p>tes tes testestsetsetw</p>
             </div>
           </div>
         </div>
       </div>
     </div>
-
   </body>
 </html>

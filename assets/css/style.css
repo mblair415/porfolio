@@ -1,5 +1,6 @@
 body {
   background-color: #C3C6C0;
+  font-family: 'Chonburi', cursive;
 }
 
 .navbar-fixed {
@@ -22,6 +23,7 @@ nav ul li:hover {
   min-height: 700px;
 }
 
+/*gone?*/
 .list {
   border: 1px solid black;
   border-radius: 7px;
@@ -43,33 +45,91 @@ nav ul li:hover {
 
 /*hover test.  make less hideous*/
 .details span:hover {
-  background-color: #488027;
+  background-color: black;
   color: white;
+  border-radius: 10px;
+  padding: 3px 6px 3px 6px;
 }
 
+/*gone*/
 .slider {
   margin-bottom: 20px;
 }
 
+/*gone*/
 .slide-project-title span {
-  background-color: rgba(110, 107, 107, 0.8);
+  background-color: rgba(110, 107, 107, 0.95);
   border-radius: 30px;
   padding: 7px 15px 7px 15px;
 }
 
+/*gone*/
 .slide-project-detail span {
-  background-color: rgba(110, 107, 107, 0.8);
+  background-color: rgba(110, 107, 107, 0.95);
   padding: 1px 5px 1px 5px;
   border-radius: 10px;
 }
 
-/*remove important*/
+/*gone*/
 .indicator-item.active {
   background-color: #FFC107 !important;
   border: 1px solid black;
 }
 
-/*remove important*/
+/*gone*/
 .indicator-item {
   background-color: black !important;
+}
+
+/*gone*/
+#project1 {
+  padding-top: 7px;
+}
+
+/*gone*/
+#project1Text, #project2Text {
+  margin-top: 7px;
+}
+
+.all-projects {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.project-image {
+  border-radius: 15px;
+}
+
+.modal {
+  border-radius: 30px;
+}
+
+.project-title {
+  border-radius: 15px;
+  background-color: rgb(60,60,100);
+}
+
+.project-title:hover {
+  background-color: #FFC107;
+}
+
+h2 {
+   position: absolute;
+   top: 200px;
+   left: 0;
+   width: 100%;
+}
+
+h2 span {
+   color: white;
+   font: bold 24px/45px Helvetica, Sans-Serif;
+   letter-spacing: -1px;
+   background: rgb(38, 38, 38);
+   background: rgba(38, 38, 38, 0.7);
+   padding: 10px;
+   /*margin-left: 150px;*/
+}
+
+h2 span.spacer {
+   padding:0 5px;
 }

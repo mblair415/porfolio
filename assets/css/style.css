@@ -39,6 +39,10 @@ h2 span.spacer {
    padding:0 5px;
 }
 
+#projects {
+  margin-top: 200px;
+}
+
 .work-title {
   margin-top: 80px;
   margin-bottom: 50px;
@@ -74,10 +78,12 @@ h2 span.spacer {
 }
 
 .white-background {
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-left: 15%;
+  margin-right: 7%;
+  margin-bottom: 40px;
   padding: 20px;
   background-color: white;
+  border-radius: 0 0 0 100px;
 }
 
 .modal {
@@ -96,10 +102,10 @@ h2 span.spacer {
 
 .footer {
   background-color: #616161;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 70px;
+  padding-bottom: 70px;
 }
 
-.linkedin-image, .github-image {
+.linkedin-image, .github-image, .email-image {
   max-width: 25px;
 }

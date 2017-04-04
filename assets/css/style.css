@@ -39,6 +39,10 @@ h2 span.spacer {
    padding:0 5px;
 }
 
+.helvetica {
+  font-family: 'Helvetica', 'Arial', sans-serif;
+}
+
 #projects {
   margin-top: 200px;
 }
@@ -75,6 +79,7 @@ h2 span.spacer {
 
 .project-title:hover {
   background-color: #d3a10c;
+  color: black;
 }
 
 .sf {

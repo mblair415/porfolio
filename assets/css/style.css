@@ -1,5 +1,5 @@
 body {
-  background-color: #C3C6C0;
+  background-color: #f2f9f9;
   font-family: 'Chonburi', cursive;
 }
 
@@ -27,7 +27,7 @@ h2 {
 }
 
 h2 span {
-   color: white;
+   color: #f2f9f9;
    font: bold 24px/45px Helvetica, Sans-Serif;
    letter-spacing: -1px;
    background: rgb(38, 38, 38);
@@ -75,6 +75,7 @@ h2 span.spacer {
 .project-title {
   border-radius: 15px;
   background-color: #4F4E55;
+  color: #f2f9f9;
 }
 
 .project-title:hover {
@@ -110,6 +111,7 @@ h2 span.spacer {
   background-color: #4F4E55;
   padding-top: 70px;
   padding-bottom: 70px;
+  color: #f2f9f9;
 }
 
 .icon {

@@ -117,6 +117,10 @@ h2 span.spacer {
   color: black;
 }
 
+.headshot {
+  max-height: 150px;
+}
+
 .icon {
   margin-bottom: 10px;
 }

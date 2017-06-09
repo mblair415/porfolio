@@ -119,10 +119,25 @@ h2 span.spacer {
 
 .headshot {
   max-height: 150px;
+  margin-right: 0px;
+  padding-right: 0px;
 }
 
 .icon {
   margin-bottom: 10px;
+}
+
+.contact-details-1 {
+  margin-top: 10px;
+}
+
+.contact-details-2 {
+  margin-top: 30px;
+  word-break: break-all;
+}
+
+.contact-details-3 {
+  margin-top: 30px;
 }
 
 .linkedin-image, .github-image, .email-image {

@@ -4,7 +4,7 @@ body {
 }
 
 .navbar-fixed {
-  background-color: #4F4E55;
+  background-color: #cfd8dc;
   width: 100%;
   height: 64px;
   position: fixed;
@@ -13,10 +13,11 @@ body {
 #dropdown {
   border-radius: 0 0 25px 0;
   border: 1px solid black;
+  background-color: #cfd8dc;
 }
 
-nav ul li:hover {
-   background-color: black;
+nav ul li:hover, .dropdown-content > li > a:hover {
+   background-color: white;
 }
 
 h2 {
@@ -110,10 +111,10 @@ h2 span.spacer {
 }
 
 .footer {
-  background-color: #4F4E55;
+  background-color: #cfd8dc;
   padding-top: 70px;
   padding-bottom: 70px;
-  color: #f2f9f9;
+  color: black;
 }
 
 .icon {
